@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'blogs/index'
+  root to: "tops#index"
 
    resources :blogs do
     collection do

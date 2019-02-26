@@ -14,6 +14,16 @@ footer {
   text-align: center;
 }
 
+header{
+  width: 100%;
+  background-color:#afe;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 12px;
+  position: absolute;
+
+}
 html {
   position: relative;
   min-height: 100%;
@@ -22,4 +32,12 @@ html {
 body {
   text-align: left;
   background-color: #f0ffff;
+}
+
+.container{
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+.button-space{
+  padding-bottom: 20px;
 }
